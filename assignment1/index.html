@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title></title>
+    <meta name="description" content="">
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+    <div class="container" id="main">
+        <div class="navbar navbar-fixed-top">
+            <div class="container">
+                <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse"
+                type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="/"><img src="images/logo.png" alt="Your Logo"></a>
+                <div class="nav-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user">
+                                
+                            </span>My Account<strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#"><span class="glyphicon glyphicon-user"></span>Login</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
+                                </li>
+
+                            </ul>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="carousel slide" id="myCarousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                <li data-slide-to="1" data-target="#myCarousel"></li>
+                <li data-slide-to="2" data-target="#myCarousel"></li>
+                </ol>
+            <div class="carousel-inner">
+                <div class="item active" id="slide1">
+                    <img src="./images/IMG_0526.jpg">
+                    <div class="carousel-caption">
+                        <h4>My Application with Bootstrap3</h4>
+                        <p>This is a responsive design and will give some detials about me!</p>
+                        </div>
+                    </div>
+                    <div class="item" id="slide2">
+                        <img src="./images/IMG_1608.jpg">
+                    <div class="carousel-caption">
+                        <h4>My Hobbies</h4>
+                        <p>This is a responsive design and will give some detials about me!</p>
+                        </div>
+                    </div>
+                    <div class="item" id="slide3">
+                        <img src="./images/IMG_0600.jpg">
+                    <div class="carousel-caption">
+                        <h4>My interests</h4>
+                        <p>This is a responsive design and will give some detials about me!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+                <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+        </div>
+
+        <div class="row" id="bigCallout">
+        </div>
+
+        <div class="row" id="featuresHeading">
+            <div class="col-12">
+                <h4>More Details</h4>
+                <p class="lead">My name is Sanjul Jain, I am from India and am pursuing my Masters in Information Systems
+                    from ISU.
+                </p>
+                </div>
+        </div>
+
+        <div class="row" id="features">
+            <div class="col-sm-4 feature">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panle-title">My Picture</h3>
+                        <img src="./images/IMG_0505.jpg" alt="MyPicture"style="width:300px;height:300px;" class="img-circle">
+                        
+                        <p>This is me at the Great Smoky Mountains</p>
+                        <a href="https://www.udemy.com" target="_blank" class="btn btn-warning btn-block">Go to udemy</a>
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="col-sm-4 feature">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panle-title">My Hobbies</h3>
+                        <img src="./images/Books.jpg" alt="Reading"style="width:300px;height:300px;"class="img-circle">
+                        
+                        <p>I like to read in my free time.</p>
+                        <a href="http://www.barnesandnoble.com/" target="_blank" class="btn btn-primary btn-block">Go to Barnes and Noble</a>
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="col-sm-4 feature">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panle-title">My Interests</h3>
+                        <img src="./images/Travel.jpg" alt="Travel"style="width:300px;height:300px;"class="img-circle">
+                        
+                        <p>I like to travel and explore new places</p>
+                        <a href="https://www.expedia.com/" target="_blank" class="btn btn-danger btn-block">Go to Expedia</a>
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+        </div>
+
+        <div class="row" id="moreInfo">
+            <div class="col-sm-6">
+                <h3>Displaying tabbed interface</h3>
+                <div class="tabbable">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#tab1" data-toggle="tab">Location Info</a></li>
+                        <li><a href="#tab2" data-toggle="tab">IT related Info</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab1">
+                                <h4><span class="glyphicon glyphicon-map-marker"></span>My Location<small> My hometown</small></h4>
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235520.34326874028!2d75.71316911503516!3d22.728042021083947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C+Madhya+Pradesh%2C+India!5e0!3m2!1sen!2sus!4v1485366076705" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <p>Indore is my hometown, it is located in the central part of India,
+                                    also called as heart of India, Madhya Pradesh.
+                                </p>
+                                </div>
+                                <div class="tab-pane" id="tab2">
+                                    <h4>What interests me in IT<small> Languages I have worked on</small></h4>
+                                    <img src="./images/Lang.jpeg" class="thumbnail pull-left" style="width:200px;height:150px;">
+                                    <p>I have worked on java and C#, I am familiar with Eclipse, Netbeans, Visual Studio and
+                                        Spring framework.</p>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <h3>More of IT interests</h3>
+                    <p>Following are some of the technologies, I have working knowledge of.</p>
+                    <h4>Technical skills</h4>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                            <h4 class="list-group-item-heading">Java</h4>
+                            
+                        </a>
+                        <a href="#" class="list-group-item">
+                            
+                            <h4 class="list-group-item-heading">C#</h4>
+                           
+                        </a>
+                        <a href="#" class="list-group-item">
+                            
+                            <h4 class="list-group-item-heading">Html</h4>
+                            
+                        </a>
+                        <a href="#" class="list-group-item">
+                            
+                            <h4 class="list-group-item-heading">Javascript</h4>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            
+                            <h4 class="list-group-item-heading">Jquery</h4>
+                        </a>
+                        </div>
+                    </div>
+        </div>
+
+        <div class="row" id="moreCourses">
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <h6>Copyright &copy; 2017 {Sanjul Jain}</h6>
+                    </div>
+                    <div class="col-sm-4">
+                        <h6> About Me</h6>
+                        <p>Most of the details are present in the webpage above</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <h6>Navigation</h6>
+                            <ul class="unstyled">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Contact</a></li>
+                                </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h6>Follow Me</h6>
+                            <ul class="unstyled">
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Google plus</a></li>
+                               
+                                </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <h6>Coded With<span class="glyphicon glyphicon-heart"></span> by Sanjul Jain</h6>
+                        </div>
+                </div>
+            </div>
+    </footer>
+
+
+
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>
+        window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+
+</body>
+
+</html>
